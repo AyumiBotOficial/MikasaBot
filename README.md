@@ -1,4 +1,4 @@
-Aqui está o código fonte (script) exato do README.md. Copie o conteúdo abaixo e cole no seu arquivo README.md.
+
 <div align="center">
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0cHRwM3A1Z254Z254Z254Z254Z254Z254Z254Z254/xT9IgIc0lryIMm5tEA/giphy.gif" alt="Mikasa Glitch" width="100%">
