@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0cHRwM3A1Z254Z254Z254Z254Z254Z254Z254Z254/xT9IgIc0lryIMm5tEA/giphy.gif" alt="Mikasa Glitch" width="100%">
+<img src="https://raw.githubusercontent.com/AyumiBotOficial/links-img/main/fotos/1768943446533_kr7422.jpg" alt="Mikasa Glitch" width="100%">
 
 # ☠️ ＭＩＫＡＳＡ － ＢＯＴ ☠️
 
