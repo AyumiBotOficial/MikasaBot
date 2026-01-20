@@ -1,9 +1,4 @@
-Beleza. Respira 😅
-Agora vai DO JEITO CERTO: NADA de bloco de código envolvendo, NADA dividido, TUDO já é o README.md.
-É copiar tudo da tela e colar no GitHub. Fim.
 
-
----
 
 ☠️ LK BOT WHATSAPP ☠️
 
