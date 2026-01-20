@@ -1,160 +1,147 @@
+
 ☠️ MIKASA BOT ☠️
 
 > “Se você não lutar, você não pode vencer.”
 
 
 
-<div align="center"><img src="https://raw.githubusercontent.com/AyumiBotOficial/links-img/main/fotos/1768943446533_kr7422.jpg" width="100%" alt="Mikasa Bot">   
 
-</div>
----
-
-📡 VISÃO GERAL
-
-O Mikasa Bot é um sistema avançado de automação para WhatsApp, desenvolvido em Node.js utilizando Baileys.
-Projetado com foco total em segurança, desempenho e controle, utilizando SQLite criptografado para proteger sessões e dados.
-
-Possui arquitetura híbrida de plugins, sistema de hierarquia de usuários e ferramentas inteligentes de administração de grupos (Sistema X9).
 
 
 ---
 
-<details>
-<summary>🛠️ FUNÇÕES DO SISTEMA</summary>⚙️ Módulos Principais
+🧠 VISÃO GERAL
 
-Módulo	Status	Descrição
+O Mikasa Bot é um bot avançado para WhatsApp desenvolvido em Node.js usando Baileys.
+Projetado para segurança, controle total e alto desempenho.
 
-CORE	🟢	Conexão rápida via QR Code com auto-reconnect
-SQLITE CRYPTO	🟢	Banco de dados SQLite criptografado
-X9 TRACKER	🟢	Monitoramento de etiquetas e membros suspeitos
-HIERARCHY	🟢	Sistema de Dono, Sub-dono e Premium
-SECURITY	🟢	Anti-link, Anti-spam, Anti-fake, Ban automático
-PLUGINS	🟢	Comandos dinâmicos sem reiniciar o bot
-RPG	🟡	Economia, níveis e duelos (em desenvolvimento)
+🔐 SQLite criptografado
+
+🧩 Sistema híbrido de plugins
+
+🛡️ Anti-link / Anti-spam / Anti-fake
+
+🕵️ Sistema X9 (etiquetas e rastreio)
+
+🎮 Sistema RPG (em desenvolvimento)
 
 
-</details>
+
 ---
 
-<details>
-<summary>📜 CHANGELOG</summary>v2.0.0 — The Shingeki Update
+🛠️ FUNÇÕES DO SISTEMA
 
-Migração completa para Baileys (WhiskeySockets)
+Administração de grupos
 
-Integração do SQLite criptografado
+Sistema de dono e sub-donos
 
-Sistema X9 de rastreamento
+Monitoramento de membros (X9)
 
-Otimização de consumo de RAM
+Segurança automática
 
-Correções de reconexão
+Plugins dinâmicos
+
+Economia e níveis (RPG)
 
 
-v1.0.0 — Origins
+
+---
+
+📜 CHANGELOG
+
+v2.0.0
+
+Migração para Baileys (WhiskeySockets)
+
+SQLite criptografado
+
+Sistema X9
+
+Otimizações gerais
+
+
+v1.0.0
 
 Lançamento inicial
 
-Sistema básico de administração
-
-Estrutura de plugins
+Estrutura base de comandos
 
 
-</details>
+
 ---
 
-💀 INSTALAÇÃO E DEPLOY
+💀 INSTALAÇÃO
 
-<details>
-<summary>💻 VPS (UBUNTU / DEBIAN)</summary># Atualizar sistema
-sudo apt update && sudo apt upgrade -y
+💻 VPS (Ubuntu / Debian)
 
-# Dependências
-sudo apt install -y git ffmpeg curl imagemagick build-essential libwebp-dev
+apt update && apt upgrade -y
+apt install git ffmpeg curl imagemagick -y
 
-# Node.js 18
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+apt install nodejs -y
 
-# Clonar projeto
 git clone https://github.com/LucasLisboa/Mikasa-Bot.git
 cd Mikasa-Bot
-
-# Instalar dependências
 npm install
-
-# Iniciar bot
 npm start
 
-</details><details>
-<summary>📱 TERMUX (ANDROID)</summary>termux-setup-storage
+
+---
+
+📱 TERMUX (Android)
+
 pkg update && pkg upgrade -y
-pkg install git nodejs ffmpeg imagemagick libwebp -y
+pkg install git nodejs ffmpeg imagemagick -y
 
 git clone https://github.com/LucasLisboa/Mikasa-Bot.git
 cd Mikasa-Bot
-
 npm install
 npm start
 
-</details><details>
-<summary>🦅 PTERODACTYL PANEL</summary>Egg: Node.js Generic
 
-Node Version: 18
+---
 
-Install Command:
+🦅 PTERODACTYL
 
+Egg: Node.js Generic
 
-npm install
+Node: 18
 
-Startup Command:
+Install: npm install
 
-
-npm start
-
-Envie os arquivos (exceto node_modules)
-
-Inicie o servidor e escaneie o QR Code no console
+Start: npm start
 
 
-</details>
+
 ---
 
 🧬 ESTRUTURA DE PLUGINS
 
 Mikasa-Bot/
-├── assets/          # Mídias e imagens
-├── database/        # SQLite (NÃO EDITAR)
-├── lib/             # Funções internas
-├── plugins/         # Sistema de comandos
-│   ├── admin/       # Administração de grupos
-│   ├── owner/       # Comandos do dono
-│   ├── rpg/         # Sistema RPG
-│   └── tools/       # Utilidades
-├── config.js        # Configuração principal
-└── index.js         # Inicialização
+├── assets/
+├── database/
+├── lib/
+├── plugins/
+│   ├── admin/
+│   ├── owner/
+│   ├── rpg/
+│   └── tools/
+├── config.js
+└── index.js
 
 
 ---
 
 ⚠️ AVISO LEGAL
 
-> Este projeto é destinado exclusivamente para fins educacionais e de estudo.
-O uso de bots no WhatsApp pode violar os Termos de Serviço da plataforma.
-O desenvolvedor não se responsabiliza por banimentos ou uso indevido.
-
-
+Este projeto é apenas para fins educacionais.
+O uso indevido é de responsabilidade do usuário.
 
 
 ---
 
-<div align="center">███╗   ███╗██╗██╗  ██╗ █████╗ ███████╗ █████╗ 
- ████╗ ████║██║██║ ██╔╝██╔══██╗██╔════╝██╔══██╗
- ██╔████╔██║██║█████╔╝ ███████║███████╗███████║
- ██║╚██╔╝██║██║██╔═██╗ ██╔══██║╚════██║██╔══██║
- ██║ ╚═╝ ██║██║██║  ██╗██║  ██║███████║██║  ██║
- ╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-
-MIKASA BOT PROJECT — EST. 2026
+MIKASA BOT — EST. 2026
 Developed by Lucas Lisboa
 
-</div>
+
+---
